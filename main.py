@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPItest(
+app = FastAPI(
     title="GEN AI Demo API testing",
     description="A simple FastAPI app to showcase GEN AI error-fixing capabilities.",
     version="1.0.0",
